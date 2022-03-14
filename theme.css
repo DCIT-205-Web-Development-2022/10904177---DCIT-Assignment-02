@@ -1,0 +1,216 @@
+* { 
+    /* background-color: red; */
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: hidden; */
+}
+
+/* HEADER STYLING STARTS HERE */
+#Header {
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    color: white;
+}
+
+#Nav {
+    margin: 10px 100px 10px 100px;
+    /* background-color: blue; */
+}
+
+#Nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#Nav>ul>li {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Nav>ul>li>a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#Nav>ul>li>a:hover {
+    color: rgb(255, 238, 0);
+    cursor: pointer;
+}
+
+/* HEADER STYLING ENDS HERE*/
+
+/* <!-- PROFILE PAGE STARTS HERE --> */
+
+#Profile {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin: 50px 0px 50px 0px;
+    background: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Photo {
+    flex: 2;
+    position: relative;
+    padding: 80px 10px 0px 10px;
+}
+
+.Photo>img {
+    margin: 0px 0px 0px 10px;
+    border-radius: 50%;
+}
+
+.Profile {
+    padding: 20px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile>h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 45px;
+    color: rgba(12, 30, 122, 0.8);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.Profile>p {
+    text-align: justify;
+    color: rgba(12, 30, 122, 0.9);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+/* <!-- PROFILE PAGE ENDS HERE --> */
+
+
+/* <!-- EDUCATION PAGE STARTS HERE --> */
+#Education {
+    height: 680px;
+    background-color: tomato;
+}
+
+.Heading {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 45px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid teal;
+}
+
+#EduTable {
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+#EduTable~h3 {
+    font-weight: 80;
+    margin-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+}
+
+#EduTable~h4 {
+    font-weight: 80;
+    margin-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+}
+
+.SecondTable>h3 {
+    font-weight: 80;
+    margin-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+}
+
+.ThirdTable>h3 {
+    font-weight: 80;
+    margin-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+}
+
+/* <!-- EDUCATION PAGE ENDS HERE --> */
+
+
+/* <!-- CONTACT PAGE STARTS HERE --> */
+
+.ContactHeading {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    border-bottom: 2px solid whitesmoke;
+    text-align: center;
+}
+
+#Contact {
+    height: 750px;
+    width: cover;
+    background-image: url(Images/2021_11_09_06_04_IMG_9168.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+Form {
+    background-color: rgb(0, 12, 116);
+    height: 70%;
+    width: 50%;
+    align-self: center;
+    margin: auto;
+    margin-top: 6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+Form>h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: xx-large;
+    color: white;
+}
+
+Form>input {
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    margin-left: 100px;
+}
+
+textarea {
+    width: 70%;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+/* <!-- CONTACT PAGE ENDS HERE --> */
